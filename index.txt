@@ -7,3 +7,19 @@ To check the status of the staging area
 To remove a file from the stagin area i.e, stop it from being tracking
 # git rm file_name or git rm -f file_name (this removes the file completely)
 # git rm --cached file_name (this unstages it instead)
+
+Making a commit
+If this is your first commit, then you need to config your email and user name on your pc.
+Run
+    git config --global user.email "adamsfaisal2003@gmail.com"
+    git config --global user.name "Your Name"
+
+NOTE: To check for more information of different git commands...
+Run
+    git git_command --help
+
+To commit with a message
+# git commit -m "Initial commit"
+
+To look at all of our previous commits
+# git log
