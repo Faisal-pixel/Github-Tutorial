@@ -1,0 +1,9 @@
+To initialise a repository locally
+# git init
+
+To check the status of the staging area
+# git status
+
+To remove a file from the stagin area i.e, stop it from being tracking
+# git rm file_name or git rm -f file_name (this removes the file completely)
+# git rm --cached file_name (this unstages it instead)
