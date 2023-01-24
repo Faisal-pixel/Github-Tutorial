@@ -23,3 +23,26 @@ To commit with a message
 
 To look at all of our previous commits
 # git log
+#git log --oneline
+
+To switch between commits
+# git checkout commit_id
+
+
+To go back in time but git creates the revert as another commit. So you dont loose all your commits
+#git revert commit_id
+
+To go back in time and remain in that commit. Reset works in three different stages. it works in soft, mixed and hard.
+
+#git reset commit_id
+
+Creating a .gitignore
+To add files
+# put in the name of the file with the extension
+# the "#" is seen as a comment
+# then track the .gitignore file. run: git add .
+# and commit also
+# git rm -r --cached . (This removes all of the cached files)
+# git add . and git commit
+How to add directories in git
+# DirectroyName/*
